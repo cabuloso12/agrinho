@@ -10,7 +10,7 @@ Este projeto é um site informativo que explora as oportunidades econômicas, o 
 
 ## Estrutura do Projeto
 
-- **davi.html:** Contém a estrutura principal do site.
+- **index.html:** Contém a estrutura principal do site.
 - **davi.css:** Arquivo de estilo (CSS) separado, responsável pelo design e responsividade do site.
 
 ## Tecnologias Utilizadas
