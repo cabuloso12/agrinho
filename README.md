@@ -10,7 +10,7 @@ Este projeto é um site informativo que explora as oportunidades econômicas, o 
 
 ## Estrutura do Projeto
 
-- **index.html:** Contém a estrutura principal do site.
+- **davi.html:** Contém a estrutura principal do site.
 - **davi.css:** Arquivo de estilo (CSS) separado, responsável pelo design e responsividade do site.
 
 ## Tecnologias Utilizadas
@@ -18,19 +18,6 @@ Este projeto é um site informativo que explora as oportunidades econômicas, o 
 - **HTML5:** Para a estruturação do conteúdo.
 - **CSS3:** Para o estilo e layout do site, incluindo o uso de media queries para responsividade.
 
-## Como Usar
 
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
 
-2. Abra o arquivo `index.html` em seu navegador para visualizar o site.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Autor Davi Ribeiro ##
