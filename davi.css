@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #6b4e16;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #6b4e16;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.introdução,
+.oportu-eco,
+.impacto-social,
+.beneficios-amb {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2 {
+    color: #6b4e16;
+}
+
+footer {
+    background-color: #6b4e16;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.img_intro { 
+    margin-left: 400px;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .introdução,
+    .oportu-eco,
+    .impacto-social,
+    .beneficios-amb {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .img_intro {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .img_intro img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo a {
+        font-size: 20px;
+    }
+
+    .navbar .nav-links a {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+}
